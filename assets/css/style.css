@@ -171,7 +171,7 @@ header {
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #525252;
+    background-color: #4a301e;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -220,7 +220,7 @@ footer {
     padding: 20px;
 }
 
-/* ----------------------------------------Three Reasons */
+/* ----------------------------------------How you can help */
 
 .how-help-icon {
     font-size: 26px;
@@ -231,7 +231,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/* ----------------------------------------Personal Info */
+/* ----------------------------------------Our mission */
 
 .our-mission-item {
     margin-bottom: 20px;
