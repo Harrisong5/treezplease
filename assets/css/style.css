@@ -254,6 +254,7 @@ footer {
 .our-mission-item .goal {
     width: 100%;
     padding-top: 2px;
+    padding-bottom: 2rem;
     vertical-align: top;
 }
 
