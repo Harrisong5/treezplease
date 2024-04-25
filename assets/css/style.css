@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /*--------------------------------------------Colors*/
 
@@ -9,8 +9,8 @@
     background-color: #fff;
 }
 
-.bg-color-personal-info {
-    background-color: #f4f4f4;
+.bg-color-our-mission {
+    background-color: #D2B48C;
 }
 
 .ui-menu-color-home {
@@ -26,7 +26,7 @@
 }
 
 .ui-menu-color-signup {
-    background-color: #90A955;
+    background-color: #6c7e42;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -43,7 +43,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -63,7 +63,7 @@ h4 {
 }
 
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -96,7 +96,7 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 200;
     font-size: 46px;
     margin-top: 50px;
@@ -104,7 +104,7 @@ header {
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 200;
     font-size: 22px;
     margin-top: 20px;
@@ -233,35 +233,37 @@ footer {
 
 /* ----------------------------------------Personal Info */
 
-.personal-info-item {
+.our-mission-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
+    flex: ;
 }
 
-.personal-info-item .key,
-.personal-info-item .value {
+.our-mission-item .key,
+.our-mission-item .value {
     padding-right: 8px;
     display: inline-block;
+    width: 100%;
 }
 
-.personal-info-item .key p,
-.personal-info-item .value p {
+.our-mission-item .key p,
+.our-mission-item .value p {
     margin: 0;
 }
 
-.personal-info-item .key {
+.our-mission-item .key {
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
     vertical-align: top;
 }
 
-.personal-info-item .key p {
+.our-mission-item .key p {
     font-weight: 700;
 }
 
-.personal-info-item .value {
+.our-mission-item .value {
     position: relative;
     width: 60%;
 }
