@@ -237,33 +237,33 @@ footer {
     margin-bottom: 20px;
     display: block;
     clear: both;
-    flex: ;
-}
-
-.our-mission-item .key,
-.our-mission-item .value {
-    padding-right: 8px;
-    display: inline-block;
     width: 100%;
 }
 
-.our-mission-item .key p,
-.our-mission-item .value p {
-    margin: 0;
+.our-mission-item .goal,
+.our-mission-item .reason {
+    display: inline-block;
 }
 
-.our-mission-item .key {
-    width: 30%;
-    margin-right: 21px;
+.our-mission-item .goal p,
+.our-mission-item .reason p {
+    margin: 0;
+
+}
+
+.our-mission-item .goal {
+    width: 100%;
     padding-top: 2px;
     vertical-align: top;
 }
 
-.our-mission-item .key p {
+.our-mission-item .goal p {
     font-weight: 700;
 }
 
-.our-mission-item .value {
+.our-mission-item .reason {
     position: relative;
-    width: 60%;
+    width: 100%;
+    text-align: end;
+    font-size: 80%;
 }
