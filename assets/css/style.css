@@ -177,6 +177,14 @@ footer {
     margin: 0;
 }
 
+.btn-primary {
+    background-color: #4F772D;
+    border: none ;
+}
+
+.btn:hover {
+    background-color: #31572C;
+}
 .cv-pdf i {
     font-size: 18px;
     color: #fafafa;
@@ -205,7 +213,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: #132A13;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -213,11 +221,12 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #6c7e42;
 }
 
 #footer-details {
     padding: 20px;
+    text-align: center;
 }
 
 /* ----------------------------------------How you can help */
