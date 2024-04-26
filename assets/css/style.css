@@ -242,7 +242,6 @@ footer {
     color: #132A13;
 }
 
-
 /* ----------------------------------------How you can help */
 
 .how-help-icon {
@@ -296,3 +295,17 @@ footer {
     text-align: end;
     font-size: 80%;
 }
+
+@include media-breakpoint-down(sm) {}
+    footer div {
+        margin-bottom: 2rem;
+    }
+    .social-links li {
+        transform: scale(2);
+    }
+    #footer-details .list-inline-item {
+        margin: 1.5rem;
+    }    
+}
+        
+
