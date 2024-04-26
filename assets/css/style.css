@@ -40,7 +40,9 @@ h3,
 h4 {
     margin: 0;
 }
-
+h3 {
+    font-size: 3rem;
+}
 .uppercase {
     text-transform: uppercase;
 }
@@ -211,9 +213,6 @@ footer {
     color: #e84610;
 }
 
-.social-links {
-    padding-bottom: 15px;
-}
 
 .social-links li a i {
     width: 32px;
@@ -238,8 +237,11 @@ footer {
     margin: 2px;
 }
 #footer-details {
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
+}
+#footer-details div {
+    padding-left: 0;
 }
 #footer-details div a:hover {
     color: #132A13;
@@ -259,6 +261,7 @@ footer {
 .how-help-buttons .btn-primary {
     background-color: #31572C;
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 /* ----------------------------------------Our mission */
@@ -298,8 +301,7 @@ footer {
     text-align: end;
     font-size: 80%;
 }
-
-@include media-breakpoint-down(sm) {}
+@media (min-width: 576px) {
     footer div {
         margin-bottom: 2rem;
     }
@@ -310,8 +312,8 @@ footer {
         margin: 1.5rem;
     }    
     .social-links {
-        position: absolute;
-        align-content: end;
+        position: relative;
+        align-self: center;
         width: 100%;
     }
     #footer-details div img {
@@ -319,6 +321,7 @@ footer {
         height: auto;
         margin: auto;
     }
+@media (min-width 768px) {
+    .our-mission-item {
+        font-size:  150%;
 }
-        
-
