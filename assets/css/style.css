@@ -188,6 +188,10 @@ footer {
 .btn:hover {
     background-color: #31572C;
 }
+
+#address {
+    margin-top: ;
+}
 .cv-pdf i {
     font-size: 18px;
     color: #fafafa;
@@ -226,11 +230,17 @@ footer {
 .social-links li a i:hover {
     background: #6c7e42;
 }
-
+#footer-details .list-inline-item {
+    margin: 2px;
+}
 #footer-details {
     padding: 20px;
     text-align: center;
 }
+#footer-details div a:hover {
+    color: #132A13;
+}
+
 
 /* ----------------------------------------How you can help */
 
