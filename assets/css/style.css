@@ -162,11 +162,14 @@ header {
 
 /*--------------------------------------------Hover.css*/
 
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
-
+.hover-zoom:hover {
+    background: linear-gradient(
+        45deg,
+        #4a301e,
+        #D2B48C 100%
+      );
 }
+
 
 /* ----------------------------------------Footer */
 
