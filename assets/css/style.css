@@ -29,6 +29,9 @@
     background-color: #6c7e42;
 }
 
+html {
+    background-color: #4a301e;
+}
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
@@ -306,6 +309,16 @@ footer {
     #footer-details .list-inline-item {
         margin: 1.5rem;
     }    
+    .social-links {
+        position: absolute;
+        align-content: end;
+        width: 100%;
+    }
+    #footer-details div img {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+    }
 }
         
 
