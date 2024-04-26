@@ -67,6 +67,7 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 /*--------------------------------------------Heading*/
@@ -251,6 +252,11 @@ footer {
 
 .how-help-heading {
     margin-bottom: 15px;
+}
+
+.how-help-buttons .btn-primary {
+    background-color: #31572C;
+    margin-bottom: 1rem;
 }
 
 /* ----------------------------------------Our mission */
